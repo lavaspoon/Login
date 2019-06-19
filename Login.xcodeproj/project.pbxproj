@@ -14,6 +14,8 @@
 		9E4C75B322B8FED6007A606D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4C75B122B8FED6007A606D /* LaunchScreen.storyboard */; };
 		9E4C75BE22B8FED6007A606D /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C75BD22B8FED6007A606D /* LoginTests.swift */; };
 		9E4C75C922B8FED6007A606D /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C75C822B8FED6007A606D /* LoginUITests.swift */; };
+		9E4C761322B93188007A606D /* MenuVuewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C761222B93188007A606D /* MenuVuewController.swift */; };
+		9E4C761522B93622007A606D /* toystory.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4C761422B93622007A606D /* toystory.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9E4C75C422B8FED6007A606D /* LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4C75C822B8FED6007A606D /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		9E4C75CA22B8FED6007A606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4C761222B93188007A606D /* MenuVuewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVuewController.swift; sourceTree = "<group>"; };
+		9E4C761422B93622007A606D /* toystory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toystory.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9E4C75AF22B8FED6007A606D /* Assets.xcassets */,
 				9E4C75B122B8FED6007A606D /* LaunchScreen.storyboard */,
 				9E4C75B422B8FED6007A606D /* Info.plist */,
+				9E4C761222B93188007A606D /* MenuVuewController.swift */,
+				9E4C761422B93622007A606D /* toystory.png */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4C761522B93622007A606D /* toystory.png in Resources */,
 				9E4C75B322B8FED6007A606D /* LaunchScreen.storyboard in Resources */,
 				9E4C75B022B8FED6007A606D /* Assets.xcassets in Resources */,
 				9E4C75AE22B8FED5007A606D /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4C761322B93188007A606D /* MenuVuewController.swift in Sources */,
 				9E4C75AB22B8FED5007A606D /* ViewController.swift in Sources */,
 				9E4C75A922B8FED5007A606D /* AppDelegate.swift in Sources */,
 			);
